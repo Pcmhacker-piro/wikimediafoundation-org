@@ -1002,16 +1002,16 @@
         },
         {
             "name": "wikimedia/vegalite-wordpress-plugin",
-            "version": "v0.2.3",
+            "version": "v0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/vegalite-wordpress-plugin.git",
-                "reference": "13c16bcce1303b8f0b60bf3e5ea6ad2b2c231016"
+                "reference": "a5e12fe051cbe487ea8d00494a71ec94f1ef5553"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/vegalite-wordpress-plugin/zipball/13c16bcce1303b8f0b60bf3e5ea6ad2b2c231016",
-                "reference": "13c16bcce1303b8f0b60bf3e5ea6ad2b2c231016",
+                "url": "https://api.github.com/repos/wikimedia/vegalite-wordpress-plugin/zipball/a5e12fe051cbe487ea8d00494a71ec94f1ef5553",
+                "reference": "a5e12fe051cbe487ea8d00494a71ec94f1ef5553",
                 "shasum": ""
             },
             "require": {
@@ -1034,10 +1034,10 @@
             ],
             "description": "Flexible data visualization using Vega Lite and per-post dataset management.",
             "support": {
-                "source": "https://github.com/wikimedia/vegalite-wordpress-plugin/tree/v0.2.3",
+                "source": "https://github.com/wikimedia/vegalite-wordpress-plugin/tree/v0.2.4",
                 "issues": "https://github.com/wikimedia/vegalite-wordpress-plugin/issues"
             },
-            "time": "2023-11-08T01:17:45+00:00"
+            "time": "2023-11-29T22:43:09+00:00"
         },
         {
             "name": "wpackagist-plugin/broken-link-checker",
