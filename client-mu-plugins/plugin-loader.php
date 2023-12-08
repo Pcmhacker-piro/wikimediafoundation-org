@@ -24,3 +24,4 @@ wpcom_vip_load_plugin( 'maintenance-mode' );
 wpcom_vip_load_plugin( 'safe-redirect-manager' );
 wpcom_vip_load_plugin( 'safe-svg' );
 wpcom_vip_load_plugin( 'hm-gutenberg-tools/plugin.php' );
+wpcom_vip_load_plugin( 'wikimedia-wordpress-security-plugin' );
