@@ -947,12 +947,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/shiro-wordpress-theme.git",
-                "reference": "7af51d134257d8dd88e9149b6fec3a31fb463d02"
+                "reference": "8d04b006e6bc1adead5f622c3ce500c9284c4515"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/shiro-wordpress-theme/zipball/7af51d134257d8dd88e9149b6fec3a31fb463d02",
-                "reference": "7af51d134257d8dd88e9149b6fec3a31fb463d02",
+                "url": "https://api.github.com/repos/wikimedia/shiro-wordpress-theme/zipball/8d04b006e6bc1adead5f622c3ce500c9284c4515",
+                "reference": "8d04b006e6bc1adead5f622c3ce500c9284c4515",
                 "shasum": ""
             },
             "require-dev": {
@@ -997,7 +997,7 @@
                     "url": "https://donate.wikimedia.org/?utm_medium=gitHub&utm_campaign=sponsorButton&utm_source=shiro"
                 }
             ],
-            "time": "2023-12-06T21:25:59+00:00"
+            "time": "2023-12-11T18:58:24+00:00"
         },
         {
             "name": "wikimedia/vegalite-wordpress-plugin",
@@ -1044,12 +1044,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/wikimedia-wordpress-security-plugin.git",
-                "reference": "2b13a22e29b57d0b7ab4a809b4f3c9625b2262aa"
+                "reference": "f7c046c4774aeb7468f0e3b9a3b7ea1858fa043c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/wikimedia-wordpress-security-plugin/zipball/2b13a22e29b57d0b7ab4a809b4f3c9625b2262aa",
-                "reference": "2b13a22e29b57d0b7ab4a809b4f3c9625b2262aa",
+                "url": "https://api.github.com/repos/wikimedia/wikimedia-wordpress-security-plugin/zipball/f7c046c4774aeb7468f0e3b9a3b7ea1858fa043c",
+                "reference": "f7c046c4774aeb7468f0e3b9a3b7ea1858fa043c",
                 "shasum": ""
             },
             "require": {
@@ -1062,10 +1062,21 @@
                 "phpcompatibility/phpcompatibility-wp": "^2.1",
                 "phpcsstandards/php_codesniffer": "^3.5",
                 "staabm/annotate-pull-request-from-checkstyle": "^1.8",
-                "wp-coding-standards/wpcs": "^3.0"
+                "wp-coding-standards/wpcs": "^3.0",
+                "wpackagist-plugin/disable-emojis": "^1.7.6"
             },
             "default-branch": true,
             "type": "wordpress-plugin",
+            "extra": {
+                "installer-types": [
+                    "wordpress-plugin"
+                ],
+                "installer-paths": {
+                    "inc/bundled-plugins/disable-emojis": [
+                        "wpackagist-plugin/disable-emojis"
+                    ]
+                }
+            },
             "scripts": {
                 "lint": [
                     "phpcs --standard=phpcs.dist.xml plugin.php inc"
@@ -1088,7 +1099,7 @@
                     "url": "https://donate.wikimedia.org/?utm_medium=gitHub&utm_campaign=sponsorButton&utm_source=wpsecurityplugin"
                 }
             ],
-            "time": "2023-12-08T21:13:53+00:00"
+            "time": "2023-12-11T18:57:02+00:00"
         },
         {
             "name": "wpackagist-plugin/broken-link-checker",
@@ -2324,5 +2335,5 @@
         "php": "^7.4|^8"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
