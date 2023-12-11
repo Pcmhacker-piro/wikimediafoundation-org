@@ -1,17 +1,17 @@
 <?php
 /**
- * Plugin Name: Wikimedia Foundation REST API
+ * Plugin Name: Wikimedia Foundation security integration
  * Version: 1.0.0
  * Plugin URI: http://disneyparksnews.com/
- * Description: Modifies the WordPress REST API functionality.
+ * Description: Customizes site-specific security logic.
  * Author: Human Made
  * Author URI: https://humanmade.com
  * Network: true
  *
- * @package wmf-rest-api
+ * @package wmf-security
  */
 
-namespace WMF\RESTAPI;
+namespace WMF_Security;
 
 require_once __DIR__ . '/inc/namespace.php';
 
