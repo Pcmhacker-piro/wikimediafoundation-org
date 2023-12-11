@@ -10,8 +10,8 @@
  * @see https://vip.wordpress.com/documentation/vip-go/understanding-your-vip-go-codebase/
  */
 
-// Wikimedia Foundation REST API.
-require_once __DIR__ . '/wmf-rest-api/wmf-rest-api.php';
+// Wikimedia Foundation security integration.
+require_once __DIR__ . '/wmf-security/wmf-security.php';
 
 // wpcom_vip_load_plugin( 'plugin-name' );
 // Note the above requires a specific naming structure: /plugin-name/plugin-name.php
@@ -24,3 +24,4 @@ wpcom_vip_load_plugin( 'maintenance-mode' );
 wpcom_vip_load_plugin( 'safe-redirect-manager' );
 wpcom_vip_load_plugin( 'safe-svg' );
 wpcom_vip_load_plugin( 'hm-gutenberg-tools/plugin.php' );
+wpcom_vip_load_plugin( 'wikimedia-wordpress-security-plugin' );
