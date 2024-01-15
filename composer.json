@@ -54,7 +54,7 @@
       "type": "package",
       "package": {
         "name": "gravityforms/gravityforms",
-        "version": "2.7.15",
+        "version": "2.8.1",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
@@ -74,7 +74,7 @@
     "alleyinteractive/wordpress-fieldmanager": "^1.3",
     "automattic/maintenance-mode-wp": "^0.2.2",
     "composer/installers": "^1.10",
-    "humanmade/asset-loader": "^0.6.2",
+    "humanmade/asset-loader": "^0.7.0",
     "humanmade/hm-gutenberg-tools": "^1.6.2",
     "humanmade/simple-editorial-comments": "^0.1.0",
     "wikimedia/shiro-wordpress-theme": "dev-release",
@@ -88,7 +88,7 @@
     "wpackagist-plugin/wikipedia-preview": "^1.11.0",
     "wpackagist-plugin/wordpress-seo": "^21.6",
     "wpackagist-plugin/safe-svg": "^2.2.0",
-    "gravityforms/gravityforms": "^2.7.15"
+    "gravityforms/gravityforms": "2.8.1"
   },
   "require-dev": {
     "automattic/vipwpcs": "^1.0",
