@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fc84843eea05831eb27759e782b13aa8",
+    "content-hash": "5cb9e233984b0a5de3dcdba9ac90e3da",
     "packages": [
         {
             "name": "alleyinteractive/wordpress-fieldmanager",
@@ -1043,6 +1043,43 @@
                 "issues": "https://github.com/wikimedia/vegalite-wordpress-plugin/issues"
             },
             "time": "2023-12-05T17:04:40+00:00"
+        },
+        {
+            "name": "wikimedia/wikimedia-wordpress-annual-report-plugin",
+            "version": "dev-release",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wikimedia/wikimedia-wordpress-annual-report-plugin.git",
+                "reference": "8c2c35b9e09ce733a909d7690dd135bf31111c82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wikimedia/wikimedia-wordpress-annual-report-plugin/zipball/8c2c35b9e09ce733a909d7690dd135bf31111c82",
+                "reference": "8c2c35b9e09ce733a909d7690dd135bf31111c82",
+                "shasum": ""
+            },
+            "require-dev": {
+                "humanmade/coding-standards": "^1.1.0",
+                "staabm/annotate-pull-request-from-checkstyle": "^1.8"
+            },
+            "type": "wordpress-plugin",
+            "scripts": {
+                "lint": [
+                    "phpcs plugin.php inc"
+                ],
+                "lint:fix": [
+                    "phpcbf plugin.php inc"
+                ]
+            },
+            "license": [
+                "GPL-2+"
+            ],
+            "description": "Editor and front-end functionality for Wikimedia's digital reports.",
+            "support": {
+                "source": "https://github.com/wikimedia/wikimedia-wordpress-annual-report-plugin/tree/release",
+                "issues": "https://github.com/wikimedia/wikimedia-wordpress-annual-report-plugin/issues"
+            },
+            "time": "2024-02-05T13:55:08+00:00"
         },
         {
             "name": "wikimedia/wikimedia-wordpress-security-plugin",
@@ -2349,6 +2386,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "wikimedia/shiro-wordpress-theme": 20,
+        "wikimedia/wikimedia-wordpress-annual-report-plugin": 20,
         "wikimedia/wikimedia-wordpress-security-plugin": 20,
         "roave/security-advisories": 20
     },
@@ -2358,5 +2396,5 @@
         "php": "^7.4|^8"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }

@@ -21,6 +21,7 @@ plugins/safe-svg
 plugins/simple-editorial-comments
 plugins/user-switching
 plugins/vegalite-wordpress-plugin
+plugins/wikimedia-wordpress-annual-report-plugin
 plugins/wikimedia-wordpress-security-plugin
 plugins/wikipedia-preview
 themes/shiro
