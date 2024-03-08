@@ -81,7 +81,7 @@
 		"humanmade/asset-loader": "^0.7.0",
 		"humanmade/hm-gutenberg-tools": "^1.6.2",
 		"humanmade/simple-editorial-comments": "^0.1.0",
-		"wikimedia/shiro-wordpress-theme": "dev-release-develop",
+		"wikimedia/shiro-wordpress-theme": "dev-release",
 		"wikimedia/vegalite-wordpress-plugin": "^0.3.0",
 		"wikimedia/wikimedia-wordpress-annual-report-plugin": "dev-release",
 		"wikimedia/wikimedia-wordpress-security-plugin": "dev-main",
