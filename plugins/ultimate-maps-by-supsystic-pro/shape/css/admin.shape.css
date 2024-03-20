@@ -1,0 +1,35 @@
+#umsShapeForm .umsCommonShapeParam, #umsShapeForm .umsPolygonShapeParam {
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+	margin-bottom: 10px;
+	padding-right: 10px;
+}
+#umsShapeForm .umsPolygonShapeParam.umsPolygonShapeDesc {
+	display: block;
+	width: 100%;
+}
+#umsShapeForm .umsParamLeft {
+	float: left;
+	width: 37%;
+}
+#umsShapeForm .umsParamRight {
+	float: right;
+	width: 20%;
+}
+#umsShapeForm #umsShapeAddPointByClickBtn.umsAddByClickActivated {
+	background: #4ae8ea !important;
+}
+#umsShapeForm .umsShapePointRow {
+	margin-bottom: 15px;
+}
+#umsShapeForm .umsShapeRemovePointRowBtn {
+	margin-left: 2px;
+	vertical-align: middle;
+}
+.umsEditShapeRow {
+	display: none;
+}
+#shapeDescription_ifr {
+	min-height:200px !important;
+}

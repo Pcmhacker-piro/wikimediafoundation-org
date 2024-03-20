@@ -1,0 +1,180 @@
+/*Main slider settings*/
+.umsMnlJssorSlider {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: visible !important;
+}
+.umsMnlJssorSlider .umsMnlJssorSlides {
+	position: absolute;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	/*max-height: 115px;*/
+	padding: 10px;
+}
+.umsMnlJssorSlider .umsMnlJssorSlide {
+	box-shadow: 1px 1px 1px #9b9b9b;
+}
+.umsMnlJssorSlider .umsMnlJssorSlide:hover {
+	background-color: #f1f1f1;
+}
+/*two cols styles*/
+.umsMnlJssorSlider.umsSlidesListTwoCols .umsMnlJssorSlide {
+	float: left;
+	width: calc(50% - 8px);
+	padding: 4px;
+}
+.umsMnlJssorSlider.umsSlidesListTwoCols .umsMnlJssorSlide.umsStartRowSlide {
+	padding-left: 0;	/*Because of this style the slides in the first column are larger then the slides in the second column*/
+	margin-right: 3px;
+}
+/*Slider arrows*/
+.jssora03l, .jssora03r, .jssora03u, .jssora03d {
+	display: block;
+	position: absolute;
+	/* size of arrow element */
+	width: 55px;
+	height: 55px;
+	cursor: pointer;
+	background: url(img/a03.png) no-repeat;
+	overflow: hidden;
+}
+.jssora03l, .jssora03u { background-position: -3px -33px; }
+.jssora03r, .jssora03d { background-position: -63px -33px; }
+.jssora03l {
+	top: 50%;
+	left: 8px;
+}
+.jssora03u {
+	top: 8px;
+	left: 50%;
+}
+.jssora03r {
+	top: 50%;
+	right: 8px;
+}
+.jssora03d {
+	bottom: 8px;
+	left: 50%;
+}
+.jssora03l:hover, .jssora03u:hover { background-position: -123px -33px; }
+.jssora03r:hover, .jssora03d:hover { background-position: -183px -33px; }
+.jssora03l.jssora03ldn { background-position: -243px -33px; }
+.jssora03r.jssora03rdn { background-position: -303px -33px; }
+/*Slider bullets*/
+.jssorb03, .jssorb03v {
+	position: absolute;
+}
+.jssorb03 {
+	bottom: -42px;
+	left: 6px;
+	right: 6px;
+	max-width: 98%;
+	overflow: auto;
+	height: 36px !important;
+}
+.jssorb03v {
+	right: -45px;
+	max-height: 100%;
+	overflow-y: auto;
+	width: 42px!important;
+}
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av,
+.jssorb03v div, .jssorb03v div:hover, .jssorb03v .av {
+	position: absolute;
+	/* size of bullet elment */
+	width: 21px;
+	height: 21px;
+	text-align: center;
+	line-height: 21px;
+	color: #1e4225;
+	font-size: 12px;
+	background: url(img/b03.png) no-repeat;
+	overflow: hidden;
+	cursor: pointer;
+}
+.jssorb03 div, .jssorb03v div { background-position: -5px -4px; }
+.jssorb03 div:hover, .jssorb03 .av:hover, .jssorb03v div:hover, .jssorb03v .av:hover { background-position: -35px -4px; }
+.jssorb03 .av, .jssorb03v .av { background-position: -65px -4px; }
+.jssorb03 .dn, .jssorb03 .dn:hover, .jssorb03v .dn, .jssorb03v .dn:hover { background-position: -95px -4px; }
+
+/*Slider content styles*/
+.umsMnlJssorSlider .umsMmlSlideTitle {
+	display: block;
+	background-color: #55ba68;
+}
+.umsMnlJssorSlider .umsMmlSlideTitle .umsMmlTitleContainer {
+	display: inline-block;
+	overflow: hidden !important;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+.umsMnlJssorSlider .umsMmlSlideTitle a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #1e4225;
+}
+.umsMnlJssorSlider .umsMmlSlideTitle, .umsMmlSlideDescription  {
+	padding: 5px;
+}
+.umsMnlJssorSlider .umsMmlSlideDescription {
+	font-size: 12px;
+}
+.umsMnlJssorSlider .umsMmlSlideImg img {
+	width: 100%;
+	height: auto;
+	/*max-height: 110px;*/
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: initial !important;
+	/*transform: none !important;
+	-webkit-transform: none !important;*/
+}
+.umsMnlJssorSlider .umsMmlSlideImg, .umsMmlSlideContent {
+	float: left;
+}
+.umsMmlSlideImg {
+	display:block;
+	position:relative;
+	height:100%;
+	width:100%;
+}
+.umsMmlSlideImg a{
+	display:block;
+	position:relative;
+	height:100%;
+	width:100%;
+}
+.umsMmlSlideContent {
+	display:block;
+	position:relative;
+	height:100%;
+}
+.umsMnlJssorSlider .umsMmlSlideImg img {
+	display:block;
+	position:relative;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.umsMnlJssorSlides div {
+	overflow:inherit !important;
+}
+.umsListType_slider_simple_vertical_img_2cols .umsMnlJssorSlide {
+	height:70px;
+}
+.umsMnlJssorSlides  div.umsMmlSlideTitle {
+	display:block;
+	position:relative;
+	max-height:30%;
+}
+.umsMnlJssorSlides  div.umsMmlSlideDescription {
+	display:block;
+	position:relative;
+	max-height:70%;
+	overflow-y:auto  !important;
+}

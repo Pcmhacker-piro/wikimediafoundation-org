@@ -1,0 +1,23 @@
+.umsPrintInfoWndBtn {
+	width: auto;
+	padding-right: 5px;
+	max-height: 25px;
+	margin: 0 6px 6px 0;
+	border: 1px solid black;
+	border-radius: 2px;
+	font-family: Roboto,Arial,sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	color: #545454;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.umsPrintInfoWndBtn:hover {
+	background-color: #ebebeb;
+	color: #000000;
+}
+.umsPrintInfoWndBtn i.fa {
+	font-size: 16px;
+	vertical-align: middle;
+	margin: 3px;
+}
