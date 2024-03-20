@@ -19,6 +19,7 @@ plugins/maintenance-mode
 plugins/safe-redirect-manager
 plugins/safe-svg
 plugins/simple-editorial-comments
+plugins/ultimate-maps-by-supsystic
 plugins/user-switching
 plugins/vegalite-wordpress-plugin
 plugins/wikimedia-wordpress-annual-report-plugin
