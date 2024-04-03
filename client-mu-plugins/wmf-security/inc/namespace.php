@@ -29,6 +29,33 @@ function bootstrap() {
 	 * @see https://vega.github.io/vega/usage/interpreter/
 	 */
 	add_filter( 'wmf/security/csp/allow_unsafe_eval', '__return_true' );
+
+	add_filter( 'wmf/security/csp/allowed_origins', __NAMESPACE__ . '\\permit_hotlinked_image_origins', 10, 2 );
+}
+
+/**
+ * Allow hotlinking to images on deployed prod, preprod, or dev servers.
+ *
+ * If the VIP dev-env is set up with the --media-redirect-domain flag, it will
+ * try to load images from a deployed environment. We need to permit connections
+ * to those origins in order for the media redirect logic to work properly.
+ *
+ * @param string[] $allowed_origins List of origins to allow in this CSP.
+ * @param string   $policy_type     CSP type.
+ * @return string[] Filtered list of permitted origins.
+ */
+function permit_hotlinked_image_origins( array $allowed_origins, string $policy_type ) : array {
+	if ( wp_get_environment_type() !== 'local' ) {
+		return $allowed_origins;
+	}
+
+	if ( $policy_type === 'img-src' ) {
+		$allowed_origins[] = 'https://wikimediafoundation.org';
+		$allowed_origins[] = 'https://wikimediafoundation-org-preprod.go-vip.net/';
+		$allowed_origins[] = 'https://wikimediafoundation-org-develop.go-vip.co';
+	}
+
+	return $allowed_origins;
 }
 
 /**
