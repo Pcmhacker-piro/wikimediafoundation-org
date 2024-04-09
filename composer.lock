@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0fe39ea8de434915f6f0083a63b4243",
+    "content-hash": "fb189b0017405cf5d313d4767577107b",
     "packages": [
         {
             "name": "alleyinteractive/wordpress-fieldmanager",
@@ -1146,15 +1146,15 @@
         },
         {
             "name": "wpackagist-plugin/blocks-animation",
-            "version": "2.6.5",
+            "version": "2.6.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/blocks-animation/",
-                "reference": "tags/2.6.5"
+                "reference": "tags/2.6.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/blocks-animation.2.6.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/blocks-animation.2.6.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1269,24 +1269,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/safe-svg/"
-        },
-        {
-            "name": "wpackagist-plugin/ultimate-maps-by-supsystic",
-            "version": "1.2.17",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/ultimate-maps-by-supsystic/",
-                "reference": "tags/1.2.17"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ultimate-maps-by-supsystic.1.2.17.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ultimate-maps-by-supsystic/"
         },
         {
             "name": "wpackagist-plugin/wikipedia-preview",
