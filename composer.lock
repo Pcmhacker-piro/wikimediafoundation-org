@@ -1041,12 +1041,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/wikimedia-wordpress-annual-report-plugin.git",
-                "reference": "17ef7426223aefcb3642258618d601a700c58983"
+                "reference": "6f4e41858c9005098bf083be20bd3a203c9a973d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/wikimedia-wordpress-annual-report-plugin/zipball/17ef7426223aefcb3642258618d601a700c58983",
-                "reference": "17ef7426223aefcb3642258618d601a700c58983",
+                "url": "https://api.github.com/repos/wikimedia/wikimedia-wordpress-annual-report-plugin/zipball/6f4e41858c9005098bf083be20bd3a203c9a973d",
+                "reference": "6f4e41858c9005098bf083be20bd3a203c9a973d",
                 "shasum": ""
             },
             "require-dev": {
@@ -1070,7 +1070,7 @@
                 "source": "https://github.com/wikimedia/wikimedia-wordpress-annual-report-plugin/tree/release",
                 "issues": "https://github.com/wikimedia/wikimedia-wordpress-annual-report-plugin/issues"
             },
-            "time": "2024-04-12T16:10:57+00:00"
+            "time": "2024-04-12T16:31:14+00:00"
         },
         {
             "name": "wikimedia/wikimedia-wordpress-security-plugin",
