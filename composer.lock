@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fb189b0017405cf5d313d4767577107b",
+    "content-hash": "58cc51ff2c3b9de13e16127f2a8710fd",
     "packages": [
         {
             "name": "alleyinteractive/wordpress-fieldmanager",
@@ -1007,16 +1007,16 @@
         },
         {
             "name": "wikimedia/vegalite-wordpress-plugin",
-            "version": "v0.3.0",
+            "version": "v0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/vegalite-wordpress-plugin.git",
-                "reference": "fc5dab1b5913c93985893b3b90e4044d41640479"
+                "reference": "863ea70b39ad068f171c5a3dbfbd81f7ec1eda4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/vegalite-wordpress-plugin/zipball/fc5dab1b5913c93985893b3b90e4044d41640479",
-                "reference": "fc5dab1b5913c93985893b3b90e4044d41640479",
+                "url": "https://api.github.com/repos/wikimedia/vegalite-wordpress-plugin/zipball/863ea70b39ad068f171c5a3dbfbd81f7ec1eda4b",
+                "reference": "863ea70b39ad068f171c5a3dbfbd81f7ec1eda4b",
                 "shasum": ""
             },
             "require": {
@@ -1039,10 +1039,10 @@
             ],
             "description": "Flexible data visualization using Vega Lite and per-post dataset management.",
             "support": {
-                "source": "https://github.com/wikimedia/vegalite-wordpress-plugin/tree/v0.3.0",
+                "source": "https://github.com/wikimedia/vegalite-wordpress-plugin/tree/v0.5.0",
                 "issues": "https://github.com/wikimedia/vegalite-wordpress-plugin/issues"
             },
-            "time": "2023-12-05T17:04:40+00:00"
+            "time": "2024-04-12T14:29:09+00:00"
         },
         {
             "name": "wikimedia/wikimedia-wordpress-annual-report-plugin",
