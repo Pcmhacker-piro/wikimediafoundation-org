@@ -2,7 +2,6 @@
 /**
  * Plugin Name: Wikimedia Foundation security integration
  * Version: 1.0.0
- * Plugin URI: http://disneyparksnews.com/
  * Description: Customizes site-specific security logic.
  * Author: Human Made
  * Author URI: https://humanmade.com
