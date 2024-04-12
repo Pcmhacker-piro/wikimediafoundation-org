@@ -10,6 +10,7 @@ plugins/wordpress-seo
 
 # Dependencies managed using composer
 plugins/asset-loader
+plugins/blocks-animation
 plugins/broken-link-checker
 plugins/co-authors-plus
 plugins/fieldmanager
