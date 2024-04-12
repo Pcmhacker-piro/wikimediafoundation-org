@@ -1050,12 +1050,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/wikimedia-wordpress-annual-report-plugin.git",
-                "reference": "8c2c35b9e09ce733a909d7690dd135bf31111c82"
+                "reference": "17ef7426223aefcb3642258618d601a700c58983"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/wikimedia-wordpress-annual-report-plugin/zipball/8c2c35b9e09ce733a909d7690dd135bf31111c82",
-                "reference": "8c2c35b9e09ce733a909d7690dd135bf31111c82",
+                "url": "https://api.github.com/repos/wikimedia/wikimedia-wordpress-annual-report-plugin/zipball/17ef7426223aefcb3642258618d601a700c58983",
+                "reference": "17ef7426223aefcb3642258618d601a700c58983",
                 "shasum": ""
             },
             "require-dev": {
@@ -1065,21 +1065,21 @@
             "type": "wordpress-plugin",
             "scripts": {
                 "lint": [
-                    "phpcs plugin.php inc"
+                    "phpcs --extensions=php plugin.php inc"
                 ],
                 "lint:fix": [
-                    "phpcbf plugin.php inc"
+                    "phpcbf --extensions=php plugin.php inc"
                 ]
             },
             "license": [
-                "GPL-2+"
+                "GPL-2.0-or-later"
             ],
             "description": "Editor and front-end functionality for Wikimedia's digital reports.",
             "support": {
                 "source": "https://github.com/wikimedia/wikimedia-wordpress-annual-report-plugin/tree/release",
                 "issues": "https://github.com/wikimedia/wikimedia-wordpress-annual-report-plugin/issues"
             },
-            "time": "2024-02-05T13:55:08+00:00"
+            "time": "2024-04-12T16:10:57+00:00"
         },
         {
             "name": "wikimedia/wikimedia-wordpress-security-plugin",
