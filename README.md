@@ -2,6 +2,9 @@
 
 This repository hosts the files for the Wikimedia Foundation website (wikimediafoundation.org). More information about the website is available on the Meta-Wiki: https://meta.wikimedia.org/wiki/Wikimedia_Foundation_website
 
+> [!TIP]
+> [Click this quick link to create a Production Release PR](https://github.com/wpcomvip/wikimediafoundation-org/compare/production...preprod?expand=1&title=Production%20Release%20YYYY-MM-DD&body=Please%20add%20a%20list%20of%20the%20tickets%20which%20will%20deploy%20in%20this%20release&labels=skip-phpcs-scan) which will deploy all current staged PreProd code to the Production environment.
+
 ## Usage
 
 The production repository is privately hosted on GitHub and maintained by Automattic Inc. and the Wikimedia Foundation Communications department.
