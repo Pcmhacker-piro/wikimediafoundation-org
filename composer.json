@@ -92,7 +92,7 @@
     "wpackagist-plugin/press-permit-core": "^4.0.0",
     "wpackagist-plugin/safe-redirect-manager": "^2.0.1",
     "wpackagist-plugin/wikipedia-preview": "^1.11.0",
-    "wpackagist-plugin/wordpress-seo": "^21.6",
+    "wpackagist-plugin/wordpress-seo": "^22.0",
     "wpackagist-plugin/safe-svg": "^2.2.0",
     "gravityforms/gravityforms": "2.8.1"
   },
