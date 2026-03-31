@@ -7,24 +7,45 @@ This repository hosts the files for the Wikimedia Foundation website (wikimediaf
 
 ## Usage
 
-The production repository is privately hosted on GitHub and maintained by Automattic Inc. and the Wikimedia Foundation Communications department.
+The production repository is privately hosted on GitHub and is actively maintained by Automattic Inc. in collaboration with the Wikimedia Foundation Communications team. This ensures stability, security, and high-quality deployment practices for the live website.
 
-A public repository is mirrored and made available: https://github.com/wikimedia/wikimediafoundation-org
+A public mirror of this repository is available to support transparency and community access:
+https://github.com/wikimedia/wikimediafoundation-org
 
-## Additional documentation
+---
 
-- [Meta-Wiki page on Wikimedia Foundation website](https://meta.wikimedia.org/wiki/Wikimedia_Foundation_website)
-- [Meta-Wiki page on Shiro theme](https://meta.wikimedia.org/wiki/Wikimedia_Foundation_website/WordPress_theme)
-- [Private development documentation](https://github.com/humanmade/Wikimedia/wiki)
-- [Public usage and design documentation on Shiro theme](https://github.com/wikimedia/shiro-wordpress-theme/wiki)
+## 📚 Additional Documentation
 
-## Local development
+For a deeper understanding of the platform, architecture, and development workflows, refer to the following resources:
 
-This site is intended to be developed using [WordPress VIP's Docker-based local development environment](https://docs.wpvip.com/technical-references/vip-local-development-environment/) via the `vip dev-env` CLI command.
+- Meta-Wiki overview of the Wikimedia Foundation website:
+  https://meta.wikimedia.org/wiki/Wikimedia_Foundation_website
+- Shiro Theme documentation (Meta):
+  https://meta.wikimedia.org/wiki/Wikimedia_Foundation_website/WordPress_theme
+- Internal development documentation:
+  https://github.com/humanmade/Wikimedia/wiki
+- Public Shiro theme usage and design documentation:
+  https://github.com/wikimedia/shiro-wordpress-theme/wiki
 
-[Install the VIP CLI using these instructions](https://docs.wpvip.com/technical-references/vip-cli/), and then [refer to this guide in the repository wiki for local setup instructions](https://github.com/humanmade/Wikimedia/wiki/Local-development-setup).
+---
 
-## Updating mirror
+## ⚙️ Local Development
+
+This project is designed to be developed using **WordPress VIP’s Docker-based local development environment**, which provides a consistent and production-like setup.
+
+To get started:
+
+1. Install the VIP CLI:
+   https://docs.wpvip.com/technical-references/vip-cli/
+
+2. Follow the local setup guide:
+   https://github.com/humanmade/Wikimedia/wiki/Local-development-setup
+
+Using this environment ensures compatibility with production workflows and simplifies development, testing, and debugging.
+
+---
+
+## 🔄 Updating Mirror
 
 The process for updating the mirror is documented by GitHub: https://help.github.com/en/articles/duplicating-a-repository
 
